@@ -6,7 +6,7 @@ html, body {
 
 /*Navbar*/
 
-.navMenuCont{
+.navMenuCont {
     display: flex;
     background-color: black;
 }
@@ -16,13 +16,13 @@ html, body {
     flex: 3;
 }
 
-.navLogoCont{
+.navLogoCont {
     flex: 3;
     font-size: 3rem;
     color: #fff;
 }
 
-.navLogoCont:hover{
+.navLogoCont:hover {
     color: #fca311;
 }
 
@@ -34,16 +34,16 @@ html, body {
     background-color: #fca311;
 }
 
-.navOptionrow{
+.navOptionrow {
     display: flex;
     margin: 10% 0%;
 }
 
-.navOptionrow:hover{
+.navOptionrow:hover {
     border-bottom: 3px solid black;
 }
 
-.optIconCont{
+.optIconCont {
     display: flex;
     align-items: center;
     justify-content: start;
@@ -51,7 +51,7 @@ html, body {
     font-size: 3rem;
 }
 
-.btnTextContainer{
+.btnTextContainer {
     display: flex;
     flex: 3;
     margin-left: 3%;
@@ -62,7 +62,7 @@ html, body {
     background-color: #fca311;
 }
 
-.nemoniaImg{
+.nemoniaImg {
     width: 4rem;
     height: auto;
 }
@@ -94,7 +94,117 @@ html, body {
     font-size: 2.5rem;
 }
 
-a:link{
+a:link {
     text-decoration: none !important;
 }
 
+/*HoePage Styles*/
+
+.homePageCont {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.homeHeaderCont {
+    display: flex;
+    flex: 1;
+    background-color: #fca311;
+    width: 100vw;
+}
+
+.homeHeaderCont {
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+}
+.homeMainTitle{
+    display: flex;
+    flex-direction: row;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: black;
+}
+
+.fas{
+    margin-left: 5%;
+}
+
+.homeFooterCont {
+    display: flex;
+    flex: 5;
+    background-color: black;
+    width: 100vw;
+    padding: 5%;
+}
+
+.homeCardCont{
+    display: flex;
+    padding: 2%;
+    border-radius: 10px;
+    border: 2px #fca311 solid;
+    min-width: 30vw;
+}
+
+.homeCardTitle{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.homeCardParg{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3%;
+    max-width: 30vw;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    background-color: #fca311;
+    min-height: 200px;
+    padding: 20px 50px;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .social_icons {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+footer .social_icons li {
+    list-style: none;
+}
+
+footer .social_icons li a {
+    font-size: 2rem;
+    color: black;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s
+}
+
+footer .social_icons li a:hover {
+    transform: translateY(-10px);
+}
+
+.footText {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 2%;
+    margin-left: 1.5%;
+}
