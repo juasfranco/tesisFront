@@ -1,0 +1,100 @@
+body {
+    margin: 0%;
+    overflow-y: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.mainCLog {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    flex: 3;
+    display: flex;
+    background-color: #fca311;
+    padding-top: 7%;
+    padding-bottom: 10%;
+    height: 100vh;
+}
+
+.rightL {
+    background-color: #e5e5e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+    height: 100vh;
+}
+
+.LogoCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5% 0%;
+}
+
+.fa-lungs{
+    font-size: 3rem;
+    padding-bottom: 2%;
+}
+
+.fa-lungs:hover{
+    color: #fca311;
+}
+
+.logoTitle {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #000000;
+    font-size: 3rem;
+}
+
+.LoginCont{
+    padding: 5%;
+}
+
+.formCard {
+    padding: 10%;
+    border-radius: 10px;
+    border: 5px solid rgba(0, 0, 0, 0.18);
+}
+
+.formCard:hover {
+    border: 5px solid #000000;
+    box-shadow: 9px 4px 25px 4px rgba(54, 53, 53, 0.66);
+    -webkit-box-shadow: 9px 4px 25px 4px rgba(54, 53, 53, 0.66);
+    -moz-box-shadow: 9px 4px 25px 4px rgba(54, 53, 53, 0.66);
+}
+
+.formBtnCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15%;
+}
+
+.lgbtn {
+    background-color: #e5e5e5;
+    border: 3.5px solid #000000;
+    color: #000000;
+    font-size: 1.5rem;
+    padding: 3% 10%;
+    border-radius: 5px;
+}
+
+.lgbtn:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
+.regbtn{
+    margin-top: 5%;
+    background-color: transparent;
+    border: 0px;
+}
+
+.regbtn:hover{
+    font-weight: bolder;
+}

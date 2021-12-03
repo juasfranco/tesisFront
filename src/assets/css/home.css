@@ -1,0 +1,100 @@
+html, body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Navbar*/
+
+.navMenuCont{
+    display: flex;
+    background-color: black;
+}
+
+.cc {
+    display: flex;
+    flex: 3;
+}
+
+.navLogoCont{
+    flex: 3;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.navLogoCont:hover{
+    color: #fca311;
+}
+
+.menuBody {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fca311;
+}
+
+.navOptionrow{
+    display: flex;
+    margin: 10% 0%;
+}
+
+.navOptionrow:hover{
+    border-bottom: 3px solid black;
+}
+
+.optIconCont{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex: 1;
+    font-size: 3rem;
+}
+
+.btnTextContainer{
+    display: flex;
+    flex: 3;
+    margin-left: 3%;
+}
+
+.menuBtnOptionCont {
+    border: 0px;
+    background-color: #fca311;
+}
+
+.nemoniaImg{
+    width: 4rem;
+    height: auto;
+}
+
+.menuBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10rem;
+    background-color: #000000;
+}
+
+.logOutBtnCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000000;
+    border: 0px;
+}
+
+.logOutBtnText {
+    color: #fff;
+    font-weight: bolder;
+}
+
+.fa-sign-out-alt {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+a:link{
+    text-decoration: none !important;
+}
+

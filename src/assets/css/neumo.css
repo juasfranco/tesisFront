@@ -1,0 +1,106 @@
+body{
+    overflow-y: hidden;
+}
+
+.fileUploadCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left{
+    width: 100vw;
+    height: 100vh;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    width: 100vw;
+    height: 100vh;
+    flex: 2;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    overflow-y:scroll ;
+}
+
+.formBtnCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15%;
+}
+
+.fileformCont{
+    padding: 3%;
+    border-radius: 10px;
+    border: 5px solid rgba(0, 0, 0, 0.18);
+
+    background: rgba( 255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+}
+
+.uploadbtn {
+    background-color: #fff;
+    border: 3.5px solid #000000;
+    color: #000000;
+    font-size: 1.5rem;
+    padding: 3% 10%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+}
+
+.uploadbtn:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
+.uploadSideImgCont{
+    border-top: 2px dashed white;
+    border-bottom: 2px dashed white;
+    padding: 5%;
+    margin-bottom: 5%;
+    margin: 1% 20%;
+}
+
+.infoContainer{
+    margin-top: 7%;
+    padding: 5%;
+}
+
+.uploadIcon{
+    width: 30rem;
+    height: auto;
+}
+
+.infoCard{
+    margin: 1% 20%;
+    display: flex;
+    align-items: center;
+    background-color: #fca311;
+    flex-direction: column;
+    padding-bottom: 5%;
+}
+
+.infoTitle{
+    padding: 1% 20%;
+}
+
+.infoText{
+    padding: 3% 20%;
+}
+
+.dataInfoImg{
+    width: 30rem;
+    height: auto;
+}
