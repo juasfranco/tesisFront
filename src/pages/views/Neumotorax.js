@@ -5,7 +5,7 @@ import neumotoraxImg from "../../assets/images/infoneumotorax.png";
 
 const Neumotorax = () => {
     const [img, setImg] = React.useState();
-    const patology = React.useState();
+    const [pat, setpat] = React.useState();
 
     function uploadImage(event) {
         event.preventDefault();
@@ -34,15 +34,23 @@ const Neumotorax = () => {
         console.log("predict")
         console.log(imgUrl)
         axios
-            .post(`https://thesis2021.herokuapp.com/predecirneumotorax?imagen=https://pneumotoraximages.blob.core.windows.net/normal/n1.jpeg`)
+            .post(`https://thesis2021.herokuapp.com/predecirneumotorax?imagen=${imgUrl}`)
             .then((res) => {
                 console.log(res);
-                patology = res;
+                const {diagnostico} = res.data;
+                console.log(diagnostico);
+                handlepat(diagnostico);
+                window.confirm("Revise los resultados");
             })
             .catch((err) => {
                 console.log(err);
             });
     }
+
+    const handlepat = (diagnostico) => {
+        setpat(diagnostico);
+    }
+
     return (
         <>
             <Menu></Menu>
@@ -98,7 +106,7 @@ const Neumotorax = () => {
                             </div>
                             <div className="modal-body">
                                 <h1>
-                                    Patología: {patology}
+                                    Patología: {pat}
                                 </h1>
                             </div>
                             <div className="modal-footer">
